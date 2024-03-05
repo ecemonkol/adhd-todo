@@ -1,0 +1,83 @@
+h1 {
+    font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+body {
+    height: 700px;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    background: rgb(131,58,180);
+    background: -moz-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(255,101,243,1) 0%, rgba(255,96,75,1) 29%, rgba(255,96,75,1) 59%, rgba(252,226,69,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(255,101,243,1) 0%, rgba(255,96,75,1) 29%, rgba(255,96,75,1) 59%, rgba(252,226,69,1) 100%);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(255,101,243,1) 0%, rgba(255,96,75,1) 29%, rgba(255,96,75,1) 59%, rgba(252,226,69,1) 100%);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1; 
+    
+}
+
+#inp {
+    width: 260px;
+    height: 50px;
+    border: 3px solid white;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding-left: 20px;
+
+}
+
+#addButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 40px;
+    color:  white;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease; /* Added transition for smooth animation */
+    transform-origin: center;
+}
+
+
+#addButton:hover {
+    transform: rotate(90deg) translateX(5px); /* Adjusted */
+}
+
+li {
+    font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+    font-size: 24px;
+    list-style-type: none;
+    color: white;
+    background-color: #5a45db;
+    width: fit-content;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    padding:10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
